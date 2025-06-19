@@ -1,12 +1,13 @@
 'use client'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import { API_BASE_URL } from '@/constans/api'
 
 export default function AboutPage() {
   const [data, setData] = useState('')
 
   useEffect(() => {
-    axios.get('https://72a8-211-33-223-91.ngrok-free.app/api/test/ping', {
+    axios.get(`${API_BASE_URL}/api/test/ping`, {
       headers: {
         'ngrok-skip-browser-warning': 'true'
       }
