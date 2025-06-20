@@ -8,7 +8,7 @@ export default function ApiTestPage() {
   const [message, setMessage] = useState('')
 
   useEffect(() => {
-    axios.get(`${API_BASE_URL}/wizTechHrApi/employee/hong@example.com`, {
+    axios.get(`${API_BASE_URL}/wizTechHrApi/test/employee/hong@example.com`, {
       headers: {
         'ngrok-skip-browser-warning': 'true'
       }
