@@ -8,7 +8,7 @@ export default function ApiTestPage() {
   const [message, setMessage] = useState('')
 
   useEffect(() => {
-    fetch(`${API_BASE_URL}/wizTechHrApi/test/ping`, {
+    fetch(`${API_BASE_URL}/wizTechHrApi/employee/hong@example.com`, {
       method: 'GET',
       headers: {
         'ngrok-skip-browser-warning': 'true',
