@@ -1,1 +1,1 @@
-export const API_BASE_URL = 'https://4fd3-211-33-223-91.ngrok-free.app'; //매번 바뀌는 ngrok URL 설정
+export const API_BASE_URL = 'https://7089-175-215-33-233.ngrok-free.app'; //매번 바뀌는 ngrok URL 설정
