@@ -7,7 +7,7 @@ export default function AboutPage() {
   const [data, setData] = useState('')
 
   useEffect(() => {
-    axios.get(`${API_BASE_URL}/api/test/ping`, {
+    axios.get(`${API_BASE_URL}/wizTechHrApi/test/ping`, {
       headers: {
         'ngrok-skip-browser-warning': 'true'
       }
